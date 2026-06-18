@@ -1,5 +1,5 @@
 {% set name = "trame-code" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 26681a1cc869ea1d0ca63aaa526443a446f17d025906b2db1758325676f86b5a
+  sha256: 05eeb5b8fc773217dd1ac68aeaf2d4bcc30f1d21f15aa3eaac9fa817c1cfe9b2
 
 build:
   noarch: python
