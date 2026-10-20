@@ -1,13 +1,13 @@
 {% set name = "trame-code" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 05eeb5b8fc773217dd1ac68aeaf2d4bcc30f1d21f15aa3eaac9fa817c1cfe9b2
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: acc52e2ab2b4fec7cc0aef6cb50a84c34ae852e65a8f64703f00aa39108faf77
 
 build:
   noarch: python
